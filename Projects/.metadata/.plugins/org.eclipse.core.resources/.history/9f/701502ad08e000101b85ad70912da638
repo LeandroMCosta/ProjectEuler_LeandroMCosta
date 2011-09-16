@@ -1,0 +1,11 @@
+
+public class Project9 {
+	public static boolean run(){
+		System.out.println("Find the only Pythagorean triplet, {a, b, c}, for which a + b + c = 1000.");
+		
+		
+		
+		
+		return true;
+	}
+}

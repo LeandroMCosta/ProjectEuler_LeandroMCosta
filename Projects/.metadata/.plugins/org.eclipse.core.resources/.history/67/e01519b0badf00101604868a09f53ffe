@@ -1,0 +1,45 @@
+
+public class Project3 {
+	public static boolean run(){
+		boolean primo = false;
+		double i,j=0,number;
+		System.out.println("Find the largest prime factor of a composite number.");
+		java.util.Scanner scanner = new java.util.Scanner(System.in);
+		System.out.println("Choose a number:");
+		number = scanner.nextDouble();
+		if(number%2==0){
+			j*=2;
+		}
+		for(i=3;i*j<=number;i++){
+			if((i%2!=0)&&(number%i==0)){
+				primo = Project3.itsPrime(i);
+			}
+			
+			
+			
+			
+			
+			
+			
+			
+			if((i%2!=0)&&(number%i==0)){
+				primo = Project3.itsPrime(i);
+				if (primo)
+					System.out.print(" "+i);
+			}
+		}
+		if(number%2==0)
+			System.out.println(" 2");
+		return true;
+	}
+
+	public static boolean itsPrime(double i) {
+		// TODO Auto-generated method stub 600851475143 
+		for(double j=i/2;j>1;j--)
+		{
+			if (i%j==0)
+				return false;
+		}
+		return true;
+	}	
+}

@@ -1,0 +1,11 @@
+
+public class Project1 {
+
+	public boolean run(){
+		return true;
+	}
+	
+	
+	
+	
+}

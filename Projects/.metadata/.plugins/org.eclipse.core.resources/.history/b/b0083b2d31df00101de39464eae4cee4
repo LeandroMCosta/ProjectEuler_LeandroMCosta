@@ -1,0 +1,17 @@
+import java.io.Console;
+
+
+public class main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String projeto = Console.readLine("Escolha o Projeto");
+		
+		
+	}
+
+}
