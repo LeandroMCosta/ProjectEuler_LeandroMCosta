@@ -2,10 +2,9 @@
 public class Project17 {
 	public static boolean run(){
 		System.out.println("If all the numbers from 1 to N (up to 9999) inclusive were written out in words, how many letters would be used?");
-		int N= (int)main.chooseANumber(),sum=0, aux,sumaux=0;		
+		int N= (int)main.chooseANumber(),sum=0, aux;		
 		for(int i=1;i<=N;i++){
-			aux=i;sumaux=sum;
-			System.out.print("\n"+i+": ");
+			aux=i;
 			while (aux>0)
 			{
 				if (aux>=1000){
@@ -29,9 +28,8 @@ public class Project17 {
 					aux-=aux;
 				}				
 			}
-			System.out.print(sum-sumaux);
 		}
-		System.out.print("\n"+sum);
+		System.out.print(sum+" Letters");
 		return true;
 	}
 	

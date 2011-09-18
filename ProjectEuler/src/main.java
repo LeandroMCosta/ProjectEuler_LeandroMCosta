@@ -11,7 +11,7 @@ public class main {
 		int projeto=-1;
 		java.util.Scanner scanner = new java.util.Scanner(System.in);
 		while(projeto!=0){
-			System.out.println("\nChoose a Project");
+			System.out.println("\nChoose a Project (1 to 17)");
 			 projeto = scanner.nextInt();
 			switch (projeto){
 			case 1: 

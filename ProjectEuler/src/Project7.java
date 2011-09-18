@@ -6,7 +6,8 @@ public class Project7 {
 		number=main.chooseANumber();
 		for(double i=2;j<=number;i++){
 			if(Project3.itsPrime(i)){
-				System.out.println(j+"º:"+i);
+				if(j==number-1)
+					System.out.println(j+1+"º:"+i);
 				j++;
 			}
 		}
