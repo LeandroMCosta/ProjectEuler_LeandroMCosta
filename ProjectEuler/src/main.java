@@ -53,6 +53,18 @@ public class main {
 			case 13: 
 				Project13.run();
 				break;
+			case 14: 
+				Project14.run();
+				break;
+			case 15: 
+				Project15.run();
+				break;
+			case 16: 
+				Project16.run();
+				break;	
+			case 17: 
+				Project17.run();
+				break;
 			default:
 				System.out.println("Project nonexistent");
 			}
